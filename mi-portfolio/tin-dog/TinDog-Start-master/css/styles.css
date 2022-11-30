@@ -1,0 +1,166 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #ffff;
+}
+
+.container-fluid {
+  padding: 3% 5% 7%;
+}
+h1 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+/*title footer*/
+
+.title-footer {
+  color: #fff;
+  font-size: 3.5rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  line-height: 1.5;
+}
+/*Headings*/
+.big-heading
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+/*Navigation Bar*/
+.navbar {
+  
+}
+
+.navbar-brand {
+  font-family: 'ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-size: 1.2rem;
+}
+
+/*Buttom*/
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+/*Title image*/
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  clear: both;
+}
+
+/*Freacture section*/
+#features {
+  padding: 7% 15%;
+  background-color: white;
+}
+
+.freature-box {
+  text-align: center;
+  padding: 4.5%;
+}
+/* Icons*/
+.icon {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*testimonials*/
+#testimonials {
+  background-color: #ef8172;
+  padding: 7% 15%;
+  text-align: center;
+  color: #fff;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+.prees-image {
+  width: 15%;
+  text-align: center;
+  padding-bottom: 3%;
+  margin: 20px 20px 50px;
+}
+
+/* Call to Action*/
+
+/*Picing Section*/
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/*Call to Action*/
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+/*Footer*/
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/*Responsive */
+@media (max-width: 992px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}

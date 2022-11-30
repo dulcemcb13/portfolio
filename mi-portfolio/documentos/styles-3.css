@@ -1,0 +1,166 @@
+/******************* Estilos comunes ****************/
+/****************************************************/
+
+body {
+    font-family: 'Judson', serif;
+}
+
+#projects1, #projects2, #projects3 {
+    height: 100vh;
+    width: 100vw;
+}
+
+/*************** Secction Projects-1 *************/
+#projects1 {
+    background: rgb(215, 213, 208);
+}
+
+/*************** Secction Projects-1 TITULO *************/
+.titulo-my-project, .titulo-my-project-2, .titulo-my-project-3{
+    font-family: Abhaya Libre serif;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin-bottom: 10%;
+}
+
+.my-project {
+    font-size: 4rem;
+    color:white;
+    margin-top: 25%;
+}
+
+.sub-Projects {
+    font-size: 8rem;
+    color: white;
+    margin-top: -10%;
+}
+
+/**footer**/
+.contenedor-project-1{
+    display: flex;
+    gap: 30%;
+    justify-content: left;
+}
+.more-button {
+    color: white;
+}
+
+.subtitulo-project, .subtitulo-project-2, .subtitulo-project-3 {
+    color:rgb(125, 133, 163);
+    font-size: 3rem;
+}
+
+.descripcion-1, .descripcion-2, .descripcion-3{
+    font-size: 1.2rem;
+    color: rgb(105, 98, 98);
+    width: 55%;
+    margin-bottom: 17%;
+}
+.projects1-img {
+    width: 120%;
+}
+
+.boton-projects {
+    color: rgb(105, 98, 98);
+    font-size: 2rem; 
+    margin-bottom: 2rem;
+ }
+ .boton-projects:hover {
+     color: white;
+  }
+
+/** navegacion **/
+.navbar {
+    background-color:rgb(175, 187, 210);
+    margin-left: 25%;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+
+.nav-link{
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    color: rgba(125, 133, 163);
+}
+
+li:hover .nav-link {
+    border-bottom: solid .2rem white;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.col-lg-6 {
+    box-sizing: content-box;
+    text-align: center;
+}
+
+/****************************************************/
+/****************************************************/
+/******************* My projects 2 ****************/
+/****************************************************/
+/****************************************************/
+
+#projects2 {
+    background: rgb(191, 187, 185) ;
+}
+/*************** Secction Projects-2 TITULO *************/
+.projects2-img {
+    width: 120%;
+    margin-top: 25%;
+}
+
+.titulo-my-project-2{
+    margin-top: 9%;
+}
+.subtitulo-project-2 {
+
+}
+/****************************************************/
+/****************************************************/
+/******************* My projects 3 ****************/
+/****************************************************/
+/****************************************************/
+#projects3 {
+    background: rgb(217, 217, 217) ;
+}
+
+.projects3-img {
+    width: 125%;
+    margin-top: 15%;
+}
+/****************************************************/
+/*******************Footer ****************/
+/****************************************************/
+
+#footer {
+    height: 50vh;
+    width: 100vw;
+    background-color:rgb(125, 133, 163);
+}
+
+.frase {
+    color: white; 
+    font-family: Jaldi, sans-serif;
+    font-size: 4rem;
+    margin-top: 38%;
+    margin-left: -22%;
+}
+
+.line-container {
+   position: sticky; 
+   top: 0.25rem;
+
+}
+.projectUno {
+    width: 20%;
+}
+.projectDos {
+    width: 20%;
+}
+
+.section {
+    display: grid;
+}

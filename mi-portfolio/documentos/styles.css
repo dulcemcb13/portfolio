@@ -1,0 +1,382 @@
+
+/******************* Estilos comunes ****************/
+/****************************************************/
+
+body {
+    font-family: 'Judson', serif;
+}
+
+#home, #about, #services, #projects, #projects2 {
+    min-height: 100vh;
+    width: 100vw;
+}
+
+/*****************************************************/
+/******************* Fin estilos comunes *************/
+
+
+/****************** Seccion Home ***************/
+#home {
+    background-color:  rgba(233, 231, 227, 100%);
+}
+
+
+/** header **/
+.header-home {
+    height: 10vh;
+    width: 100vw;
+}
+
+/** contenido principal **/
+
+.container-titulos-home {
+    z-index: 2;
+}
+
+.container-titulos-home .web {
+    color:rgba(108, 119, 156) ;
+    font-size: 6rem;
+}
+
+.marcado {
+    display: block;
+    font-size: 10rem;
+    color:white ;
+    text-transform: capitalize;
+}
+.title-image {
+    z-index: 1;
+}
+
+.name-dulce {
+    font-size: 2rem;
+    color: rgb(105, 98, 98) ;
+}
+
+.primera-linea {
+    color: rgb(105, 98, 98);
+}
+
+.development{
+    color: rgb(156, 153, 153);
+}
+.design {
+    color: rgb(130, 121, 121); 
+}
+/** footer de home **/
+.more-button {
+    color: rgb(105, 98, 98);;
+    font-size: 2rem;
+}
+.more-button:hover {
+    color: white;
+    font-size: 2rem;
+}
+
+
+/** navegacion **/
+
+.navbar {
+    padding: 1rem;
+    background-color:rgb(191, 187, 185);
+    margin-left: 25%;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+}
+
+.nav-link{
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+    color: rgba(0, 55, 42);
+}
+
+li:hover .nav-link {
+    border-bottom: solid .2rem rgba(0, 55, 42);
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.col-lg-6 {
+    box-sizing: content-box;
+    text-align: center;
+}
+
+      /****************************************************/
+/*************** About-me-Section *******************************/
+/************************************************************/
+      /****//*****//*******//********//****//**/
+#about {
+     background-color: rgb(175, 187, 210);
+}
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subtitulo {
+    font-family: 'Judson', serif;
+    font-size: 7rem;
+    text-transform:uppercase;
+    padding: 10% 0 0;
+}
+
+.letra-u {
+    font-family: 'Judson', serif;
+    font-size: 7rem;
+    text-transform: lowercase;  
+    color: rgb(108, 119, 156);
+}
+
+.subtitulo2 {
+    font-size: 6rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+ .hello-box {
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 5% 0;
+}
+
+.desciption-box {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10%;
+}
+.boton-cv {
+    margin-bottom: 40%;
+    border-radius:20px ;
+}
+
+/************************************************************/
+/*************** About-me-Section *******************************/
+/************************************************************/
+        /****//*****//*******//********//****//**/
+
+#projects {
+    background-color: rgb(175, 187, 210); 
+  
+}
+.project-lista {
+    display: flex;
+    flex-direction: column;
+    margin: auto 15rem auto;
+}
+
+.titulos-lista {
+    font-size: 6rem; 
+    color: white; 
+    line-height: 0.85;
+    margin-bottom: 4%;
+}
+
+.parrafo-lista-1, .parrafo-lista-2, .parrafo-lista-3 {
+    font-size: 1.1rem; 
+    color: white; 
+    margin-bottom: 8rem;
+    width: 60%;
+}
+
+.container-projects {
+    margin-left:8%;
+}
+
+.movil-design {
+    margin-bottom: 50%;
+}
+
+.boton-projects {
+   color: rgb(108, 119, 156);
+   font-size: 2rem; 
+   margin-bottom: 2rem;
+}
+.boton-projects:hover {
+    color: white;
+ }
+
+.vector {
+    background-size:cover ;
+    min-height: 40vh;
+    position: relative;
+}
+
+.boton-view {
+    border-radius: 20px;
+    background: rgb(108, 119, 156);
+    color: white;
+    border: solid 2px;
+    font-family: 'Jaldi', sans-serif;
+    position: absolute;
+    left: 64%;
+    top: 15%;
+}
+
+.boton-view:hover {
+    background:  rgb(175, 187, 210);
+    color: rgb(108, 119, 156); 
+
+}
+
+.boton-cv{
+    background: rgb(108, 119, 156);
+    color: white;
+    border: solid 2px;
+    font-family: 'Jaldi', sans-serif;  
+}
+.boton-cv:hover {
+    background:  rgb(175, 187, 210);
+    color: rgb(108, 119, 156); 
+
+}
+
+/************************************************************/
+/*************** services section *******************************/
+/************************************************************/
+        /****//*****//*******//********//****//**/
+#services {
+    background-color: rgb(175, 187, 210);
+        }
+
+.title-skillset {
+    font-size: 4rem;
+    display: flex;   
+    width: 30%;
+    margin: auto 10%;
+}
+
+.title-skill {
+    color:black;
+    font-size: 6rem;
+}
+        
+.title-set {
+    color: white;
+    font-size: 6rem;
+            
+}
+
+.titulo-services {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color:white;
+    transform:  rotate(270deg);
+}
+
+.fondo-skills{
+    background-size:cover ;
+    min-height: 40vh;
+}
+
+.skillss {
+    height: 200vh;
+}
+/************************************************************/
+/*************** Footer *******************************/
+/************************************************************/
+        /****//*****//*******//********//****//**/
+        
+#footer {
+    height: 60vh;
+    width: 100vw;
+    font-family: Jaldi, sans-serif;
+    background-color:rgb(125, 133, 163);
+    color: white;
+}
+
+.footer-social-icons .iconos {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-social-icons .iconos img {
+    height: 30px;
+    margin-top: 3rem;
+}
+
+.title-conversation {
+    font-size: 4rem;
+    font-family: 'Jaldi Bold 700', sans-serif;
+    margin-top: 10%;
+}
+
+.correo {
+    font-size: 4rem;
+    color: rgb(233, 231, 227);
+}
+.form-texto{
+    color: rgb(191, 187, 185);
+}
+
+.info-me {
+color: rgb(224, 223, 219);
+}
+
+.info-spain, .info-mexico {
+color: white;
+font-size: 1.5rem;
+}
+
+.vector-contact {
+ height: 150%;
+ width: 50%;
+ 
+}
+
+.correo {
+    margin-top: 40%;
+    margin-bottom: 10%;
+}
+
+.boton-contact {
+    margin-top: -20%;
+}
+
+.boton-contact:hover {
+    color:rgb(108, 119, 156) ;
+}
+
+/************************************************************/
+/*************** Navbar-footer *******************************/
+/************************************************************/
+        /****//*****//*******//********//****//**/
+
+.footer-my-name {
+ color: rgb(108, 119, 156) ;
+ text-transform: uppercase;
+ margin-left: 8%;
+ font-family: 'jaldi';
+
+}
+
+.container-navbar { 
+    height: 8vh;
+    width: 100vw;
+    background-color:rgb(217, 217, 217);
+}
+
+/************************Linea-marcador************************************/
+.line-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    overflow: hidden;
+}
+
+svg {
+    display: inline-block;
+    height: 100%;
+}
+section{
+    display: grid;
+}
